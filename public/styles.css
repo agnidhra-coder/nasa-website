@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #454b6e;
+}
+header {
+    background-color: #051c24;
+    color: rgb(245, 241, 241);
+    padding: 1em;
+    text-align: center;
+    border-bottom: 2px solid #070d13;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 1em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #1e90ff;
+}
+main {
+    padding: 2em;
+    background-color: #2b3154c9;
+}
+h2 {
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #051c24;
+}
+section {
+    margin-bottom: 2em;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1em;
+    padding: 1em;
+    background-color: #25274d;
+    border-radius: 10px;
+}
+.flex-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.weather-card, .asteroid-card, .gallery-card {
+    min-width: 250px;
+    flex: 0 0 auto;
+    background-color: #1b1b2f;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+footer {
+    background-color: #051c24;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: xx-small;
+}
+footer a {
+    color: #1e90ff;
+}
+footer a:hover {
+    text-decoration: underline;
+}
